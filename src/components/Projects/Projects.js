@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="OSPI"
               description="A comprehensive online student performance indicator system built with modern web technologies. Features include real-time performance tracking, analytics dashboard, grade management, and student progress monitoring with interactive visualizations."
-              ghLink="https://github.com/yourusername/ospi"
+              ghLink="https://github.com/kaustubh7916/ospi"
             />
           </Col>
 
