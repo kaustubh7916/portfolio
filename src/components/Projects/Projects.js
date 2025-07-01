@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaf.png";
 
 function Projects() {
   return (
@@ -20,10 +21,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={leaf}
               isBlog={false}
               title="OSPI"
-              description="A comprehensive online student performance indicator system built with modern web technologies. Features include real-time performance tracking, analytics dashboard, grade management, and student progress monitoring with interactive visualizations."
+              description="An online shopping website that uses machine learning to predict if a visitor is likely to make a purchase, based on how they interact with the site. By analyzing user session data, the system provides store owners with valuable insights to improve sales and customer experience. Even if you're not a tech expert, think of it as a smart assistant that helps businesses understand and serve their customers better."
               ghLink="https://github.com/kaustubh7916/ospi"
             />
           </Col>
